@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{9628ffab-b3ff-4428-b7ff-741b235990cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\example">
+      <UniqueIdentifier>{0db05908-136f-470a-8b9e-eb80826dc56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\example\commontest">
+      <UniqueIdentifier>{03ca275b-c263-45dd-bbfe-0836024815ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\example\commontest\src">
+      <UniqueIdentifier>{9d891386-cdda-4b72-adfb-5e28471c4cd2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\example\main.cpp">
+      <Filter>Source Files\example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LpDetectRec.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MySvn\trunk\CommonTest\CommonTest\copyFile.cpp">
+      <Filter>Source Files\example\commontest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MySvn\trunk\CommonTest\CommonTest\FeaReadWrite.cpp">
+      <Filter>Source Files\example\commontest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MySvn\trunk\CommonTest\CommonTest\GetRoi.cpp">
+      <Filter>Source Files\example\commontest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MySvn\trunk\CommonTest\CommonTest\imgconvert.cpp">
+      <Filter>Source Files\example\commontest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MySvn\trunk\CommonTest\CommonTest\Log.cpp">
+      <Filter>Source Files\example\commontest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MySvn\trunk\CommonTest\CommonTest\LpPositonAnsReadWrite.cpp">
+      <Filter>Source Files\example\commontest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MySvn\trunk\CommonTest\CommonTest\multiThrdTest.cpp">
+      <Filter>Source Files\example\commontest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MySvn\trunk\CommonTest\CommonTest\read_Config.cpp">
+      <Filter>Source Files\example\commontest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MySvn\trunk\CommonTest\CommonTest\readsample.cpp">
+      <Filter>Source Files\example\commontest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MySvn\trunk\CommonTest\CommonTest\ShowRetrievalResult.cpp">
+      <Filter>Source Files\example\commontest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MySvn\trunk\CommonTest\CommonTest\TImageProcess.cpp">
+      <Filter>Source Files\example\commontest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\example\parseLpAns.cpp">
+      <Filter>Source Files\example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\example\video2jpg.cpp">
+      <Filter>Source Files\example</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\LpDetectRec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MySvn\trunk\CommonTest\CommonTest.h">
+      <Filter>Source Files\example\commontest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
